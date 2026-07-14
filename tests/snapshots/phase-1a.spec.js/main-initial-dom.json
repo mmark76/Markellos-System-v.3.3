@@ -1,0 +1,152 @@
+{
+  "downloadFormats": [
+    [
+      "",
+      "csv",
+      "json"
+    ],
+    [
+      "",
+      "csv",
+      "json"
+    ],
+    [
+      "",
+      "csv",
+      "json"
+    ],
+    [
+      "",
+      "csv",
+      "json"
+    ],
+    [
+      "",
+      "csv",
+      "json"
+    ]
+  ],
+  "dynamicElements": [
+    {
+      "id": "epicModal",
+      "present": true
+    },
+    {
+      "id": "sanTextModal",
+      "present": true
+    },
+    {
+      "id": "feedbackModal",
+      "present": true
+    },
+    {
+      "id": "restoreDefaultLibrariesBtn",
+      "present": true
+    },
+    {
+      "id": "openSanToTextBtn",
+      "present": true
+    }
+  ],
+  "epicLocusMode": "half",
+  "libraryStatus": "Active system: Default Libraries",
+  "locusMode": "full",
+  "rowCounts": {
+    "associations": 0,
+    "pao00To99": 0,
+    "pao0To9": 0,
+    "san": 0,
+    "shortnames": 0
+  },
+  "sections": [
+    {
+      "display": "block",
+      "id": "sanSection"
+    },
+    {
+      "display": "none",
+      "id": "assocSection"
+    },
+    {
+      "display": "none",
+      "id": "shortnamesSection"
+    },
+    {
+      "display": "none",
+      "id": "pao99Section"
+    },
+    {
+      "display": "none",
+      "id": "paoSection"
+    }
+  ],
+  "tableHeaders": [
+    {
+      "headers": [
+        "Move #",
+        "SAN",
+        "⚓",
+        "Mnemonic Locus",
+        "Color Turn",
+        "Piece",
+        "Target Square"
+      ],
+      "id": "sanSection"
+    },
+    {
+      "headers": [
+        "Move #",
+        "SAN",
+        "⚓",
+        "Mnemonic Locus",
+        "Target Square",
+        "Color Turn",
+        "Piece Association",
+        "Action",
+        "Target Square Association"
+      ],
+      "id": "assocSection"
+    },
+    {
+      "headers": [
+        "Move #",
+        "SAN",
+        "⚓",
+        "Mnemonic Locus",
+        "Target Square",
+        "Color Turn",
+        "Piece Shortname",
+        "Action",
+        "Target Square Shortname"
+      ],
+      "id": "shortnamesSection"
+    },
+    {
+      "headers": [
+        "Move #",
+        "SAN",
+        "⚓",
+        "Mnemonic Locus",
+        "Color Turn",
+        "PAO Code (6-digit)",
+        "Person / Action / Object"
+      ],
+      "id": "pao99Section"
+    },
+    {
+      "headers": [
+        "Move #",
+        "SAN",
+        "⚓",
+        "Mnemonic Locus",
+        "Color Turn",
+        "PAO Code",
+        "Person / Action / Object"
+      ],
+      "id": "paoSection"
+    }
+  ],
+  "tableSelect": "sanSection",
+  "title": "Chess Mnemonic Application and Epic Chess Stories Creator",
+  "toolbarCount": 5
+}

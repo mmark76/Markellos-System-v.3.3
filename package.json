@@ -1,0 +1,20 @@
+{
+  "name": "chess-mnemonic-application-characterization",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test-only characterization harness for the Chess Mnemonic Application.",
+  "scripts": {
+    "serve:test": "node tests/helpers/static-server.js --port 4173",
+    "test": "playwright test",
+    "test:characterization": "playwright test",
+    "test:update-snapshots": "playwright test --update-snapshots"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.1",
+    "chess.js": "0.10.3",
+    "file-saver": "2.0.5",
+    "jquery": "3.6.0",
+    "jszip": "3.10.1",
+    "papaparse": "5.4.1"
+  }
+}

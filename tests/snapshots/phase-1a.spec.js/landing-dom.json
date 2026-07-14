@@ -1,0 +1,24 @@
+{
+  "actionLinks": [
+    {
+      "href": "app.html",
+      "text": "Open the Chess Mnemonic App"
+    },
+    {
+      "href": "flashcards/index.html",
+      "text": "Memory Palaces Trainer"
+    }
+  ],
+  "heading": "What Is the Chess Mnemonic System?",
+  "mainSectionHeadings": [
+    "The basic idea",
+    "The main layers",
+    "How to use the system for a chess game",
+    "Example: How one fullmove becomes a memory scene",
+    "Example: How one fullmove becomes part of an epic story",
+    "Advanced note: PAO 00–99 for pure recall",
+    "Who is it for?",
+    "Recommended first path"
+  ],
+  "title": "Chess Mnemonic System"
+}

@@ -12,3 +12,9 @@ build/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Playwright characterization artifacts
+tests/.artifacts/
+test-results/
+playwright-report/
+blob-report/
